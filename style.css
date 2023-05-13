@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+html{
+    font-size: 62.5%;
+}
+.main_div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: skyblue;
+}
+
+
+.inner_div{
+    width: 40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 2rem -0.4rem rgb(0, 0,0, 0.4);
+}
+@media screen and (max-width: 940px){
+  .inner_div{
+  width: 65vw;
+}
+}
+.inner_div h1{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin: 0rem 0 3rem 0;
+}
+@media screen and (max-width: 940px){
+  .inner_div h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+  }
+  
+}
+ .inner_div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+ }
+ @media screen and (max-width: 940px){
+  .inner_div li{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+ }
+ input{
+    cursor: pointer;
+ }
+ .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    left: 15rem;
+    margin: 10px;
+    padding: 9px;
+    border: none;
+    text-transform: uppercase;
+    color: wheat;
+    background-color: blue;
+    margin-top: 4rem;
+    cursor: pointer;
+ }
+ @media screen and (max-width: 940px){
+  .btn{
+    position: relative;
+    left: 1rem;
+
+  }
+ }
+  .btn:hover{
+    background-color: rgb(69, 178, 214);
+  }
+  #showScore{
+    background-color: whitesmoke;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1.8rem 2rem -0.4rem rgb(0, 0,0, 0.4);
+  }
+  @media screen and (max-width: 940px){
+    #showScore{
+    width: 35vw;
+    height: 30vw;
+    margin-top: 2rem;
+    }
+  }
+  .showArea{
+    display: none;
+  }
+  #showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+@media screen and (max-width: 940px){
+  #showScore h3{
+    font-size: 1.5rem;
+  }
+}
+
+  #showScore .btn1{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    left: 10rem;
+    margin: 10px;
+    padding: 9px;
+    border: none;
+    text-transform: uppercase;
+    color: wheat;
+    background-color: blue;
+    margin-top: 4rem;
+    cursor: pointer;
+ }
+ @media screen and (max-width: 940px){
+  #showScore .btn1{
+    position: relative;
+    left: 0rem;
+    margin: 7px;
+    font-size: 1.2rem;
+
+ }}
